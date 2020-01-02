@@ -1,5 +1,4 @@
 CMakeCache.txt
-/Build/*
 /CMakeFiles/*
 *.cmake
 Makefile
