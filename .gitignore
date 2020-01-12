@@ -1,6 +1,8 @@
-CMakeCache.txt
 /CMakeFiles/*
+
 *.cmake
+*.json
+*.html
 Makefile
 controller
 tuning
