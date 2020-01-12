@@ -1,6 +1,7 @@
 cmake_minimum_required (VERSION 2.8) 
 project (self-balancing-robot) 
 find_package(OpenCV REQUIRED)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/build)
 
 include_directories (include src) 
 add_executable (controller src/controller.cpp src/imu.cpp src/uart.cpp src/vision.cpp include/imu.hpp include/uart.hpp include/vision.hpp include/util.hpp) 
